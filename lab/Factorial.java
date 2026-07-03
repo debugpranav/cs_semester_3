@@ -1,5 +1,5 @@
 package lab;
-class Factoria {
+class Factorial {
     public static void main(String[] args) {
         System.out.println("List of factorials from 1 to 10:");
         
