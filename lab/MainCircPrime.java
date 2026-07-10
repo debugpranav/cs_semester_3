@@ -17,7 +17,7 @@ class Circle {
     }
 }
 
-class PrimeChecker {
+class Prime {
 
     public boolean isPrime(int number) {
         if (number <= 1) {
@@ -48,14 +48,14 @@ class MainCircPrime {
 
         System.out.println("\n--- Prime Number Checker ---");
         System.out.print("Enter an integer to check if it is prime: ");
-        int number = scanner.nextInt();
+        int num = scanner.nextInt();
 
-        PrimeChecker checker = new PrimeChecker();
+        Prime checker = new Prime();
 
-        if (checker.isPrime(number)) {
-            System.out.println(number + " is a Prime number.");
+        if (checker.isPrime(num)) {
+            System.out.println(num + " is a Prime number.");
         } else {
-            System.out.println(number + " is not a Prime number.");
+            System.out.println(num + " is not a Prime number.");
         }
 
         scanner.close();
