@@ -1,13 +1,13 @@
 package lab;
-class Student{
+class Static{
     int rollno;
     String name;
 
     static String college = "SJU";
     public static void main (String[] args) {
-        Student S1 = new Student();
-        Student S2 = new Student();
-        Student S3 = new Student();
+        Static S1 = new Static();
+        Static S2 = new Static();
+        Static S3 = new Static();
 
         S1.rollno = 111;
         S1.name = "John";
