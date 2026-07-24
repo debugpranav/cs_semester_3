@@ -1,4 +1,3 @@
-package lab;
 class Static{
     int rollno;
     String name;
