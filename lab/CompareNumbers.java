@@ -1,4 +1,3 @@
-package lab;
 class CompareNumbers {
     public static void main(String[] args) {
 

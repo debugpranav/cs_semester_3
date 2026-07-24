@@ -1,4 +1,3 @@
-package lab;
 public class OverloadAddition {
 
     public int add(int a, int b) {
