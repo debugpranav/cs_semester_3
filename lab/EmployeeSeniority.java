@@ -39,9 +39,9 @@ public class EmployeeSeniority {
         }
 
         System.out.println("\nEmployees Sorted by Seniority");
-        System.out.println("-------------------------------------");
+        System.out.println("------------------------------------");
         System.out.println("Name\tAppointment Date");
-        System.out.println("-------------------------------------");
+        System.out.println("------------------------------------");
 
         for (int i = 0; i < emp.length; i++) {
             emp[i].display();

@@ -71,7 +71,7 @@ public class Main {
             System.out.print("Name: ");
             String name = sc.nextLine();
 
-            System.out.print("Register Number: ");
+            System.out.print("Register No. : ");
             int regNo = sc.nextInt();
 
             int[] marks = new int[3];
